@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+vendor/
+.venv/
+venv/
+__pycache__/
+
+# Build outputs
+dist/
+build/
+out/
+*.min.js
+*.min.css
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+tmp/
+temp/
+.cache/
+
+# Sensitive files
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+secrets/
